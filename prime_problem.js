@@ -1,7 +1,7 @@
 // prob on prime number;
 let number= 12;
 let count=0;
-for(let j=1; j<number;j++){
+for(let j=1; j<=number;j++){
   if(number%j==0){
     count++;
   }
